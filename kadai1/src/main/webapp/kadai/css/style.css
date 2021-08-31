@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 表示全体の設定 */
+body {
+	margin: 0;
+	font-family: Consolas, YuGothic, sans-serif;
+}
+
+/* タイトルの領域の設定 */
+header {
+	margin: 0;
+	background-color: #338833;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* 本文部分の設定 */
+#contents {
+	width: 600px;
+	margin: 20px auto;
+}
+
+#form {
+	margin-bottom: 20px;
+}
+
+/* テーブル表示の設定 */
+/* 罫線の重なりを設定 */
+table, th, td {
+	border-collapse: collapse;
+}
+/* セルに罫線を設定する　余白をつけてゆとりを持たせる */
+td, th {
+	border: solid 1px #999999;
+	padding: 5px 10px;
+}
+/* 項目見出しの表示設定 */
+th {
+	background-color: #333388;
+	color: #ffffff;
+}
+/* 奇数行の背景を設定 */
+tr:nth-child(2n+1) {
+	background-color: #ccffff;
+}
